@@ -54,6 +54,8 @@ handle_http_error() {
   :
 }
 
+#API function skeleton
+
 elevator_list() {
   :
 }
