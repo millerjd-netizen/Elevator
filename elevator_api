@@ -25,6 +25,9 @@ E_CONFLICT=73
 E_UNAUTHORIZED=74
 E_INTERNAL=75
 
+
+#logging / errors 
+
 log_info()   { :; }
 log_warn()   { :; }
 log_error()  { :; }
@@ -33,6 +36,10 @@ require_env(){ :; }
 require_cmd(){ :; }
 validate_int(){ :; }
 validate_enum(){ :; }
+
+
+
+#http skeleton 
 
 http_request() {
   local method="$1"
