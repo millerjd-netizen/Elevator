@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
+#elevator skeleton only
+
 set -Eeuo pipefail
 
-#elevator skeleton only
+# configuration
 
 API_BASE_URL="${API_BASE_URL:-__SET_ME__}"
 API_TOKEN="${API_TOKEN:-__SET_ME__}"
@@ -9,7 +11,7 @@ TIMEOUT_SECS="${TIMEOUT_SECS:-__SET_ME__}"
 
 
 
-# configuration
+# error codes 
 
 
 E_OK=0
